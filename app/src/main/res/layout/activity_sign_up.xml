@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:context=".SignUpActivity">
+
+    <TextView
+            android:text="@string/instapost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/titleText"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/name"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/nameEditText"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/nickname"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/nicknameEditText"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/emailSignUp"/>
+    <Button
+            android:text="@string/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:id="@+id/enterSignUpInfo"/>
+
+</LinearLayout>

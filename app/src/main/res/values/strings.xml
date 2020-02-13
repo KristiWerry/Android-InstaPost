@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">cs646_Assignment4</string>
+    <string name="instapost">InstaPost</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="nickname">Nickname</string>
+    <string name="email">Email</string>
+    <string name="post">Post</string>
+    <string name="description">Description</string>
+    <string name="choose_photo">Choose Different Photo</string>
+    <string name="users">Users</string>
+    <string name="hashtags">Hashtags</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+    <string name="title_activity_hashtag_list">HashtagListActivity</string>
+</resources>
